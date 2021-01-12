@@ -35,14 +35,14 @@ body {
 a {
   color: inherit;
   filter: drop-shadow(2px 2px 1px $red);
-  transition: filter 100ms linear;
+  transition: filter 200ms linear;
 }
 
 a:hover,
 a:focus,
 a:active {
   // color: $redhover;
-  filter: drop-shadow(-2px 2px 1px $red);
+  filter: drop-shadow(-2px 2px 1px $red) hue-rotate(315deg);
 }
 
 .bgblack {
@@ -77,6 +77,10 @@ a:active {
   margin: 20px;
 }
 
+.ml0 {
+  margin-left: 0px;
+}
+
 .w100 {
   width: 100%;
 }
@@ -87,19 +91,6 @@ a:active {
 
 .h40p {
   height: 40px;
-}
-
-.scroll-v {
-  animation: scroll-v 12s linear infinite;
-}
-
-@keyframes scroll-v {
-  0% {
-    transform: translateY(100vh);
-  }
-  100% {
-    transform: translateY(-100%);
-  }
 }
 
 .op50 {
@@ -188,7 +179,7 @@ img {
 .logoblock {
   padding-left: 20px;
   padding-top: 20px;
-  filter: drop-shadow(2px 2px 1px $red);
+  // filter: drop-shadow(2px 2px 1px $red);
 }
 
 .logo {

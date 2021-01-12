@@ -40,17 +40,17 @@ a {
   color: inherit;
   -webkit-filter: drop-shadow(2px 2px 1px #ff4040);
           filter: drop-shadow(2px 2px 1px #ff4040);
-  -webkit-transition: -webkit-filter 100ms linear;
-  transition: -webkit-filter 100ms linear;
-  transition: filter 100ms linear;
-  transition: filter 100ms linear, -webkit-filter 100ms linear;
+  -webkit-transition: -webkit-filter 200ms linear;
+  transition: -webkit-filter 200ms linear;
+  transition: filter 200ms linear;
+  transition: filter 200ms linear, -webkit-filter 200ms linear;
 }
 
 a:hover,
 a:focus,
 a:active {
-  -webkit-filter: drop-shadow(-2px 2px 1px #ff4040);
-          filter: drop-shadow(-2px 2px 1px #ff4040);
+  -webkit-filter: drop-shadow(-2px 2px 1px #ff4040) hue-rotate(315deg);
+          filter: drop-shadow(-2px 2px 1px #ff4040) hue-rotate(315deg);
 }
 
 .bgblack {
@@ -85,6 +85,10 @@ a:active {
   margin: 20px;
 }
 
+.ml0 {
+  margin-left: 0px;
+}
+
 .w100 {
   width: 100%;
 }
@@ -95,33 +99,6 @@ a:active {
 
 .h40p {
   height: 40px;
-}
-
-.scroll-v {
-  -webkit-animation: scroll-v 12s linear infinite;
-          animation: scroll-v 12s linear infinite;
-}
-
-@-webkit-keyframes scroll-v {
-  0% {
-    -webkit-transform: translateY(100vh);
-            transform: translateY(100vh);
-  }
-  100% {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-  }
-}
-
-@keyframes scroll-v {
-  0% {
-    -webkit-transform: translateY(100vh);
-            transform: translateY(100vh);
-  }
-  100% {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-  }
 }
 
 .op50 {
@@ -227,8 +204,6 @@ img {
 .logoblock {
   padding-left: 20px;
   padding-top: 20px;
-  -webkit-filter: drop-shadow(2px 2px 1px #ff4040);
-          filter: drop-shadow(2px 2px 1px #ff4040);
 }
 
 .logo {
