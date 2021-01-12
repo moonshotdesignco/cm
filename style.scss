@@ -34,19 +34,16 @@ body {
 
 a {
   color: inherit;
+  filter: drop-shadow(2px 2px 1px $red);
+  transition: filter 100ms linear;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: $redhover;
+  // color: $redhover;
+  filter: drop-shadow(-2px 2px 1px $red);
 }
-
-// a.dblock,
-// a.dinblock,
-// a.dinline {
-//   border-radius: 100%;
-// }
 
 .bgblack {
   background: $black;
@@ -191,6 +188,7 @@ img {
 .logoblock {
   padding-left: 20px;
   padding-top: 20px;
+  filter: drop-shadow(2px 2px 1px $red);
 }
 
 .logo {
@@ -207,13 +205,3 @@ img {
 .socialblock {
   font-size: 40px;
 }
-
-
-
-// @media (orientation: landscape) {
-//   .logo {
-//     height: 40px;
-//     padding: 0;
-//   }
-// }
-

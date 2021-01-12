@@ -38,12 +38,19 @@ body {
 
 a {
   color: inherit;
+  -webkit-filter: drop-shadow(2px 2px 1px #ff4040);
+          filter: drop-shadow(2px 2px 1px #ff4040);
+  -webkit-transition: -webkit-filter 100ms linear;
+  transition: -webkit-filter 100ms linear;
+  transition: filter 100ms linear;
+  transition: filter 100ms linear, -webkit-filter 100ms linear;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #ff9090;
+  -webkit-filter: drop-shadow(-2px 2px 1px #ff4040);
+          filter: drop-shadow(-2px 2px 1px #ff4040);
 }
 
 .bgblack {
@@ -220,6 +227,8 @@ img {
 .logoblock {
   padding-left: 20px;
   padding-top: 20px;
+  -webkit-filter: drop-shadow(2px 2px 1px #ff4040);
+          filter: drop-shadow(2px 2px 1px #ff4040);
 }
 
 .logo {
