@@ -12,6 +12,7 @@ body {
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background: url("https://closet.moonshotdesignco.com/cm/img/photo%20jan%2030,%2012%2010%2026%20am.jpg") fixed center/300px no-repeat;
+  -webkit-overflow-scrolling: touch;
 }
 
 @media (min-width: 700px) {
@@ -115,6 +116,11 @@ a:active {
   right: 0px;
 }
 
+.pbottomleft {
+  bottom: 0px;
+  left: 0px;
+}
+
 .dflex {
   display: flex;
 }
@@ -158,6 +164,10 @@ a:active {
   font-size: 5rem;
 }
 
+.small {
+  font-size: 0.75rem;
+}
+
 .dblock {
   display: block;
 }
@@ -195,4 +205,10 @@ img {
 
 .socialblock {
   font-size: 40px;
+}
+
+.copyrightblock {
+  text-transform: lowercase;
+  font-family: 'Courier New', Courier, monospace;
+  color: $gray;
 }
