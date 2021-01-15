@@ -21,21 +21,54 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+.bg {
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  -webkit-animation: colorwheel 2s linear infinite;
+          animation: colorwheel 2s linear infinite;
+}
+
 @media (min-width: 700px) {
-  body {
+  .bg {
     background-size: 400px;
   }
 }
 
 @media (min-width: 1000px) {
-  body {
+  .bg {
     background-size: 600px;
   }
 }
 
 @media (min-width: 1400px) {
-  body {
+  .bg {
     background-size: 800px;
+  }
+}
+
+@-webkit-keyframes colorwheel {
+  0% {
+    -webkit-filter: hue-rotate(0);
+            filter: hue-rotate(0);
+  }
+  100% {
+    -webkit-filter: hue-rotate(1turn);
+            filter: hue-rotate(1turn);
+  }
+}
+
+@keyframes colorwheel {
+  0% {
+    -webkit-filter: hue-rotate(0);
+            filter: hue-rotate(0);
+  }
+  100% {
+    -webkit-filter: hue-rotate(1turn);
+            filter: hue-rotate(1turn);
   }
 }
 
@@ -182,6 +215,10 @@ a:active {
 
 .z5 {
   z-index: 5;
+}
+
+.z0 {
+  z-index: -1;
 }
 
 .big {
