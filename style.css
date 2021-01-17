@@ -21,7 +21,7 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
-.bg {
+#bgdiv {
   width: 100%;
   height: 100%;
   background-attachment: fixed;
@@ -33,19 +33,19 @@ body {
 }
 
 @media (min-width: 700px) {
-  .bg {
+  #bgdiv {
     background-size: 400px;
   }
 }
 
 @media (min-width: 1000px) {
-  .bg {
+  #bgdiv {
     background-size: 600px;
   }
 }
 
 @media (min-width: 1400px) {
-  .bg {
+  #bgdiv {
     background-size: 800px;
   }
 }
@@ -150,8 +150,12 @@ a:active {
   position: relative;
 }
 
+.pabsolute {
+  position: absolute;
+}
+
 .pbottomright {
-  bottom: 20px;
+  bottom: 0px;
   right: 0px;
 }
 

@@ -127,8 +127,12 @@ a:active {
   position: relative;
 }
 
+.pabsolute {
+  position: absolute;
+}
+
 .pbottomright {
-  bottom: 20px;
+  bottom: 0px;
   right: 0px;
 }
 
