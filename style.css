@@ -13,7 +13,7 @@ body {
 }
 
 body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Courier New', Courier, monospace;
   background-attachment: fixed;
   background-position: center;
   background-size: 300px;
@@ -126,6 +126,10 @@ a:active {
   margin-left: 0px;
 }
 
+.mb20p {
+  margin-bottom: 20px;
+}
+
 .w100 {
   width: 100%;
 }
@@ -208,6 +212,10 @@ a:active {
   text-align: center;
 }
 
+.tright {
+  text-align: right;
+}
+
 .dflexspacebetween {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -227,7 +235,7 @@ a:active {
 }
 
 .big {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .small {
