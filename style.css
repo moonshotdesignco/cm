@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,11 +17,7 @@ body {
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 300px;
-  background-repeat: no-repeat;
+  font-family: 'IM Fell English', serif;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -284,5 +281,4 @@ img {
 .copyrightblock {
   padding-top: 40px;
   text-transform: lowercase;
-  font-family: 'Courier New', Courier, monospace;
 }
