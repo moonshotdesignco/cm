@@ -7,18 +7,32 @@
 }
 
 html {
-  background: #101010;
+  background: transparent;
 }
 
 html,
 body {
   color: #ffffff;
   width: 100%;
+  height: 100%;
 }
 
 body {
   font-family: 'IM Fell English', serif;
   -webkit-overflow-scrolling: touch;
+  background-image: url("https://closet.moonshotdesignco.com/cm/bg/bg2022-a.jpg");
+  background-size: cover;
+  background-position: center 30%;
+  background-attachment: fixed;
+}
+
+#core {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #bgdiv {
@@ -289,6 +303,6 @@ img {
 }
 
 .copyrightblock {
-  padding-top: 40px;
+  padding-bottom: 40px;
   text-transform: lowercase;
 }
