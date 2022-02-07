@@ -342,9 +342,9 @@ img {
 .modal-content {
   background-color: #101010;
   border: 10px solid #ff4040;
-  margin: 40px auto;
+  margin: 20px;
   padding: 20px;
-  width: 80%;
+  width: calc(100% - 40px);
   text-align: center;
 }
 
@@ -362,6 +362,12 @@ img {
           filter: none;
   -webkit-transition: none;
   transition: none;
+}
+
+.modal-content iframe {
+  width: 100%;
+  height: auto;
+  min-height: 700px;
 }
 
 .presave,
