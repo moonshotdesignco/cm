@@ -316,11 +316,13 @@ img {
 
 .videolist iframe {
   width: 100%;
+  height: 50vw;
 }
 
 @media (min-width: 1200px) {
   .videolist iframe {
     width: 50%;
+    height: 25vw;
   }
 }
 
