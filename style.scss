@@ -18,7 +18,8 @@ body {
   // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-family: 'IM Fell English', serif;
   -webkit-overflow-scrolling: touch;
-  background-image: url("https://closet.moonshotdesignco.com/cm/bg/2022-06.jpg");
+  background-color: $black;
+  background-image: url("https://closet.moonshotdesignco.com/cm/bg/eastroom.jpg");
   background-size: cover;
   background-position: center 30%;
   background-attachment: fixed;
@@ -307,83 +308,83 @@ img {
 
 /* MODAL */
 
-.modal {
-  display: block;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.4);
-}
+// .modal {
+//   display: block;
+//   position: fixed;
+//   z-index: 1;
+//   left: 0;
+//   top: 0;
+//   width: 100%;
+//   height: 100%;
+//   overflow: auto;
+//   background-color: rgb(0,0,0);
+//   background-color: rgba(0,0,0,0.4);
+// }
 
-.modal-closebtn {
-  background-color: $black;
-  width: 100%;
-  height: 3.75rem;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-}
+// .modal-closebtn {
+//   background-color: $black;
+//   width: 100%;
+//   height: 3.75rem;
+//   display: flex;
+//   justify-content: end;
+//   align-items: center;
+// }
 
-.bigsquare {
-  font-size: 3rem;
-  width: 3rem;
-  text-align: center;
-}
+// .bigsquare {
+//   font-size: 3rem;
+//   width: 3rem;
+//   text-align: center;
+// }
 
-.modal-content {
-  background-color: $black;
-  // border: 10px solid $red;
-  // margin: 20px;
-  // padding: 20px;
-  width: 100%;
-  text-align: center;
-  a {
-    filter: none;
-    transition: none;
-  }
-  a:hover,
-  a:focus,
-  a:active {
-    filter: none;
-    transition: none;
-  }
-  iframe {
-    width: 100%;
-    height: auto;
-    min-height: 900px;
-  }
-}
+// .modal-content {
+//   background-color: $black;
+//   // border: 10px solid $red;
+//   // margin: 20px;
+//   // padding: 20px;
+//   width: 100%;
+//   text-align: center;
+//   a {
+//     filter: none;
+//     transition: none;
+//   }
+//   a:hover,
+//   a:focus,
+//   a:active {
+//     filter: none;
+//     transition: none;
+//   }
+//   iframe {
+//     width: 100%;
+//     height: auto;
+//     min-height: 900px;
+//   }
+// }
 
-.presave,
-.close {
-  color: $white;
-  font-weight: bold;
-}
+// .presave,
+// .close {
+//   color: $white;
+//   font-weight: bold;
+// }
 
-.presave:hover,
-.presave:focus,
-.presave:active,
-.close:hover,
-.close:focus,
-.close:active {
-  color: $red;
-  text-decoration: none;
-  cursor: pointer;
-}
+// .presave:hover,
+// .presave:focus,
+// .presave:active,
+// .close:hover,
+// .close:focus,
+// .close:active {
+//   color: $red;
+//   text-decoration: none;
+//   cursor: pointer;
+// }
 
-.modal-closebtn2 {
-  background-color: $black;
-  width: 100%;
-  height: 3.75rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+// .modal-closebtn2 {
+//   background-color: $black;
+//   width: 100%;
+//   height: 3.75rem;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
 
 
 @media (max-width: 900px) {
